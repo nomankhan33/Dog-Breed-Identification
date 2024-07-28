@@ -7,7 +7,7 @@ import tempfile
 
 
 st.sidebar.title("Dog Breed Prediction")
-uploaded_file = st.sidebar.file_uploader("upload a dog image")
+uploaded_file = st.sidebar.file_uploader("Upload a dog image")
 if uploaded_file:
     temp_dir = tempfile.mkdtemp()
     path = os.path.join(temp_dir, uploaded_file.name)
