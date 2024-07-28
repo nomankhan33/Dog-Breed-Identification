@@ -1,0 +1,9 @@
+streamlit
+tensorflow
+tf_keras
+os
+tempfile
+tensorflow_hub
+numpy
+pandas
+matplotlib
